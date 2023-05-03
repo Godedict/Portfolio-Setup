@@ -7,7 +7,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
-  background-color: rgb(240, 240, 239);
+  background-color: #e5e5e5;
 }
 
 .buttons {
@@ -42,10 +42,10 @@ body {
 
 .hero {
   position: absolute;
-  height: 90vh;
+  height: 92vh;
   width: 100%;
   left: 0;
-  top: 58px;
+  top: 30px;
   background-image: url(./Assets/backgroundoption.jpg);
   background-size: 100vw;
   background-repeat: no-repeat;
@@ -53,20 +53,23 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
-  border-bottom-left-radius: 5rem;
+  border-bottom-left-radius: 4rem;
   background-color: #fff;
 }
 
 .aboutme {
   padding-top: 2vw;
-  padding-left: 3vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .aboutme h1 {
-  padding-top: 10vw;
-  font-size: 6vh;
-  font-weight: 900;
+  font-style: normal;
+  padding-top: 3vw;
+  font-size: 35px;
+  font-weight: 700;
   line-height: 1.2;
+  color: #172b4d;
 }
 
 .aboutme p {
