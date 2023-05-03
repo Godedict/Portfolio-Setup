@@ -63,10 +63,9 @@ body {
 }
 
 .aboutme h1 {
-  font-weight: 900;
   padding-top: 10vw;
   font-size: 6vh;
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1.2;
 }
 
@@ -91,8 +90,7 @@ body {
 
 .socials li {
   text-decoration: none;
-  display: flex;
-  flex-direction: row;
   display: inline-block;
+  flex-direction: row;
   margin-right: 14px;
 }
