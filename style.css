@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  background-color: #e5e5e5;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6vw;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.logo {
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 6vw;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #6070ff;
+}
+
+.fa-solid {
+  font-size: 1rem;
+  padding: 1rem;
+  position: relative;
+  color: #6070ff;
+}
+
+.hero {
+  position: absolute;
+  height: 92vh;
+  width: 100%;
+  left: 0;
+  top: 30px;
+  background-image: url(./Assets/backgroundoption.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position-y: 13vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom-left-radius: 4rem;
+  background-color: #fff;
+}
+
+.aboutme {
+  padding-top: 2vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.aboutme h1 {
+  font-style: normal;
+  padding-top: 3vw;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #172b4d;
+}
+
+.aboutme p {
+  padding-top: 3vw;
+  font-weight: 500;
+  font-size: 4.5vw;
+  line-height: 6vw;
+}
+
+.connect-btn {
+  display: flex;
+  margin: 10px 0;
+  width: 100%;
+  color: #3567fd;
+  font-weight: 600;
+  font-size: 4.5vw;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.socials li {
+  text-decoration: none;
+  display: inline-block;
+  flex-direction: row;
+  margin-right: 14px;
+}
