@@ -67,24 +67,25 @@ body {
   font-style: normal;
   padding-top: 3vw;
   font-size: 34px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.2;
   color: #172b4d;
 }
 
 .aboutme p {
   padding-top: 3vw;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 4.6vw;
   line-height: 6vw;
+  color: #344563;
 }
 
 .connect-btn {
   display: flex;
   margin: 10px 0;
   width: 100%;
-  color: #3567fd;
-  font-weight: 600;
+  color: #7F8CFF;
+  font-weight: 500;
   font-size: 4.5vw;
   text-transform: uppercase;
   transition: background-color 0.2s ease;
