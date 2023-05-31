@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6vw;
+  padding: 4vw;
   position: fixed;
   top: 0;
   width: 100%;
@@ -44,12 +44,11 @@ body {
   position: absolute;
   height: 92vh;
   width: 100%;
-  left: 0;
   top: 30px;
   background-image: url(./Assets/backgroundoption.jpg);
   background-size: 100vw;
   background-repeat: no-repeat;
-  background-position-y: 13vw;
+  background-position-y: 9vw;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -59,15 +58,16 @@ body {
 
 .aboutme {
   padding-top: 2vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 4vw;
+  box-sizing: border-box;
+  width: fit-content;
 }
 
 .aboutme h1 {
   font-style: normal;
   padding-top: 3vw;
   font-size: 34px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.2;
   color: #172b4d;
 }
@@ -75,9 +75,11 @@ body {
 .aboutme p {
   padding-top: 3vw;
   font-weight: 400;
-  font-size: 4.6vw;
-  line-height: 6vw;
+  font-size: 15px;
+  line-height: 24px;
   color: #344563;
+  white-space: nowrap;
+  width: fit-content;
 }
 
 .connect-btn {
