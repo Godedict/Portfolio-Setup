@@ -7,7 +7,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
-  background-color: #e5e5e5;
+  background-color: #f7f7f9;
 }
 
 .buttons {
@@ -390,6 +390,10 @@ section.page-5 {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+}
+
+.container a:hover {
+  background-color: #ebebff;
 }
 
 .container-2:hover {
