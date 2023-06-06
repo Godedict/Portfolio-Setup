@@ -68,7 +68,7 @@
         </div>
       </div>
     </section>
-  
+
     <section class="page-3">
       <div class="wrapper-3">
         <div class="img-3">
@@ -93,7 +93,7 @@
         </div>
       </div>
     </section>
-  
+
     <section class="page-4">
       <div class="wrapper-4">
         <div class="img-4">
@@ -118,7 +118,7 @@
         </div>
       </div>
     </section>
-  
+
     <section class="page-5">
       <div class="wrapper-5">
         <div class="img-5">
@@ -149,7 +149,7 @@
 
   <section class="aboutmyself">
     <div class="about">
-      <h1>About Myself</h1>
+      <h1 id="myself">About Myself</h1>
       <p>
         Hello I'm a software developer! I can<br />
         help you build a product , feature or<br />
@@ -191,6 +191,35 @@
           <h3>Skills</h3><i class="fa-solid fa-angle-right"></i>
         </article>
       </section>
+    </div>
+  </section>
+
+  <section class="formsection" id="contact-me">
+    <div class="outer">
+      <img src="Assets/contact form shapes-mobile.svg" alt="background" id="contact-img">
+      <div class="heading-2">
+        <h2>Contact me</h2>
+      </div>
+      <p class="contact-form-description">If you have an application you are interested in developing, a feature that
+        you need built or a project that needs coding.<br>I'd love to help with it!</p>
+      <form id=form action="https://formspree.io/f/xknalvkr" method="post">
+        <div class="contact-box">
+          <div class="fullname">
+            <label for="name"></label>
+            <input type="text" id="name" name="user_name" maxlength="30" placeholder="enter full name" required>
+          </div>
+          <div class="email">
+            <input type="email" id="mail" name="user_email" placeholder="enter email" required>
+          </div>
+          <div class="message">
+            <label for="msg"></label>
+            <textarea id="msg" name="user_message" maxlength="500" placeholder="Write your message here..."
+              required></textarea>
+          </div>
+          <p class="error-message">*invalid email</p>
+          <button class="btn-0">Get in touch</button>
+        </div>
+      </form>
     </div>
   </section>
 </body>
