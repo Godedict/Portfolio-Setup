@@ -317,7 +317,7 @@ section.page-5 {
 
 .aboutmyself {
   position: relative;
-  height: 180vh;
+  height: 140vh;
   width: 100%;
   background-size: 100vw;
   display: flex;
@@ -536,7 +536,6 @@ section.page-5 {
 
 .contact-form-description {
   text-align: center;
-  color: #fff;
   max-width: 569px;
   font-weight: 400;
   font-size: 20px;
@@ -624,19 +623,16 @@ section.page-5 {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  border-style: solid;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  letter-spacing: 0.03em;
   width: 142px;
   height: 48px;
   left: 24px;
-  top: 5317px;
   border-style: none;
   letter-spacing: 0.03em;
-  margin-bottom: 25%
+  margin-bottom: 25%;
 }
 
 .btn:hover {
