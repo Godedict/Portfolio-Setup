@@ -317,7 +317,7 @@ section.page-5 {
 
 .aboutmyself {
   position: relative;
-  height: 140vh;
+  height: 180vh;
   width: 100%;
   background-size: 100vw;
   display: flex;
@@ -493,11 +493,16 @@ section.page-5 {
 }
 
 .formsection {
-  margin: auto;
-  height: 100vh;
+  background-color: white;
+  margin: 0;
+  padding: 20% 0 0 0;
+}
+
+.outer {
   width: 100vw;
   background: #fff;
-  background-image: url(Assets/Contact\ me.svg);
+  background-color: #6070ff;
+  border-radius: 70px 0 0 0;
   background-size: 100vw;
   background-repeat: no-repeat;
   display: flex;
@@ -505,10 +510,17 @@ section.page-5 {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  padding: 0 6.2%;
+  padding: 0;
   gap: 18px;
   transition-duration: 1s;
   transition-timing-function: ease-in;
+}
+
+#contact-img {
+  position: absolute;
+  align-self: self-end;
+  margin: 0%;
+  padding: 0%;
 }
 
 .heading-2 {
@@ -517,7 +529,7 @@ section.page-5 {
   font-weight: 700;
   line-height: 52px;
   text-align: center;
-  margin: 0;
+  margin: 30% 0 0 0;
   align-self: unset;
   color: #fff;
 }
@@ -530,7 +542,7 @@ section.page-5 {
   font-size: 20px;
   line-height: 28px;
   color: #ebebff;
-  margin-bottom: 40px;
+  margin: 0 5% 40px 5%;
 }
 
 .contact-box {
@@ -624,6 +636,7 @@ section.page-5 {
   top: 5317px;
   border-style: none;
   letter-spacing: 0.03em;
+  margin-bottom: 25%
 }
 
 .btn:hover {
