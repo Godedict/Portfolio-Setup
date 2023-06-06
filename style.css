@@ -317,7 +317,7 @@ section.page-5 {
 
 .aboutmyself {
   position: relative;
-  height: 130vh;
+  height: 140vh;
   width: 100%;
   background-size: 100vw;
   display: flex;
@@ -490,4 +490,152 @@ section.page-5 {
 .works i {
   padding-top: 24px;
   color: #000;
+}
+
+.formsection {
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  background: #fff;
+  background-image: url(Assets/Contact\ me.svg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 6.2%;
+  gap: 18px;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+
+.heading-2 {
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  margin: 0;
+  align-self: unset;
+  color: #fff;
+}
+
+.contact-form-description {
+  text-align: center;
+  color: #fff;
+  max-width: 569px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  margin-bottom: 40px;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+}
+
+#name {
+  width: 327px;
+  height: 48px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#name::placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+#mail {
+  width: 327px;
+  height: 48px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+
+#mail::placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+#msg {
+  width: 327px;
+  height: 170px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 18px;
+}
+
+#msg::placeholder {
+  color: #b3bac5;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.btn-0 {
+  top: 50%;
+  padding: 15px;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 142px;
+  height: 48px;
+  left: 24px;
+  top: 5317px;
+  border-style: none;
+  letter-spacing: 0.03em;
+}
+
+.btn:hover {
+  background-color: #ebebff;
+}
+
+.error-message {
+  display: none;
+  color: rgb(230, 89, 89);
+  font-size: 17px;
+}
+
+.formsectio {
+  background-image: url(Assets/Ellipse\ 12.svg);
 }
