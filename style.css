@@ -32,6 +32,18 @@ body {
   color: #6070ff;
   font-weight: 700;
   font-size: 1rem;
+  animation-name: Spin;
+  animation-duration: 3s;
+}
+
+@keyframes Spin {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
 }
 
 .logo a {
