@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -19,12 +21,17 @@ body {
   width: 100%;
   z-index: 1;
   background-color: #fff;
+  position: none;
+}
+
+.buttons ul {
+  display: none;
 }
 
 .logo {
   color: #6070ff;
   font-weight: 700;
-  font-size: 6vw;
+  font-size: 1rem;
 }
 
 .logo a {
@@ -68,6 +75,7 @@ body {
   font-weight: 700;
   line-height: 52px;
   color: #172b4d;
+  width: 85%;
 }
 
 .aboutme p {
@@ -76,8 +84,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  white-space: nowrap;
-  width: fit-content;
+  width: 90%;
 }
 
 .connect-btn {
@@ -135,6 +142,10 @@ section.page-2 {
 .img img {
   width: 90%;
   margin: 0.9rem 0.9rem;
+}
+
+.desk-img {
+  display: none;
 }
 
 .text {
@@ -264,8 +275,24 @@ section.page-2 {
 section.page-3 {
   display: flex;
   width: 90%;
-  height: 37.5rem;
+  height: 35.5rem;
   margin: 0 auto;
+}
+
+.deskh5-3 {
+  display: none;
+}
+
+.deskli-3 {
+  display: none;
+}
+
+#deskbtn-3 {
+  display: none;
+}
+
+.deskp {
+  display: none;
 }
 
 .wrapper-3 {
@@ -286,6 +313,26 @@ section.page-4 {
   margin: 5rem auto;
 }
 
+#desktext4 {
+  display: none;
+}
+
+#deskh5-4 {
+  display: none;
+}
+
+#deskli-4 {
+  display: none;
+}
+
+#deskp-4 {
+  display: none;
+}
+
+#deskbtn-4 {
+  display: none;
+}
+
 .wrapper-4 {
   background-color: #fff;
   border-radius: 1rem;
@@ -302,6 +349,26 @@ section.page-5 {
   width: 90%;
   height: 37.5rem;
   margin: 0 auto;
+}
+
+#deskh1-5 {
+  display: none;
+}
+
+#deskh5-5 {
+  display: none;
+}
+
+.deskli-5 {
+  display: none;
+}
+
+.deskp-5 {
+  display: none;
+}
+
+#deskbtn-5 {
+  display: none;
 }
 
 .wrapper-5 {
@@ -355,8 +422,7 @@ section.page-5 {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  white-space: nowrap;
-  width: fit-content;
+  width: 90%;
 }
 
 .lang li {
@@ -454,6 +520,7 @@ section.page-5 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  width: 94%;
 }
 
 .lang p {
@@ -635,10 +702,6 @@ section.page-5 {
   margin-bottom: 25%;
 }
 
-.btn:hover {
-  background-color: #ebebff;
-}
-
 .error-message {
   display: none;
   color: rgb(230, 89, 89);
@@ -647,4 +710,656 @@ section.page-5 {
 
 .formsectio {
   background-image: url(Assets/Ellipse\ 12.svg);
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 20px;
+    margin-left: 8rem;
+  }
+
+  .fa-solid {
+    display: none;
+  }
+
+  .hero {
+    width: 100%;
+    height: 99.4vh;
+    background-image: none;
+    background-image: url(Assets/Header\ bg.jpg);
+    background-size: 97vw;
+    background-repeat: no-repeat;
+    background-position-y: 6vw;
+    background-position-x: 2vw;
+    border-bottom-left-radius: 10rem;
+  }
+
+  .buttons {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+  }
+
+  .buttons>ul {
+    display: flex;
+    display: block;
+    list-style: none;
+    margin-right: 6rem;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .buttons>ul>li {
+    display: inline-block;
+    gap: 8px;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .logo {
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .logo a {
+    text-decoration: none;
+    color: #6070ff;
+  }
+
+  .fa-solid {
+    display: none;
+  }
+
+  .aboutme {
+    margin-left: 18rem;
+    margin-bottom: 15rem;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .aboutme h1 {
+    margin-top: 14rem;
+    font-style: normal;
+    padding-top: 3vw;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #172b4d;
+    width: 40%;
+  }
+
+  .aboutme p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 77%;
+    margin: 1rem 0;
+    padding-top: 0;
+  }
+
+  .connect-btn {
+    font-size: 16px;
+    line-height: 24px
+  }
+
+  .socials {
+    margin-bottom: 4rem;
+  }
+
+  .page-2 img {
+    display: none;
+  }
+
+  section.page-2 {
+    display: flex;
+    width: 90%;
+    height: 34rem;
+    margin: 5rem 8.7rem;
+  }
+
+  .wrapper {
+    width: 1156px;
+    height: 496px;
+    background-color: #fff;
+    border: solid 1px #dfe1E6;
+    border-radius: 1rem;
+    background-image: url(/Assets/Snapshoot\ Portfolio\ 1.png);
+    background-position-y: 1.6vw;
+    background-position-x: 1.6vw;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+
+  .text {
+    margin-top: 3rem;
+    margin-left: 38rem;
+    box-sizing: border-box;
+    width: 45%;
+  }
+
+  #textp-2  p {
+    padding-top: 1rem;
+  }
+
+  .text h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .btn {
+    margin-top: 1rem;
+    margin-left: 38rem;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .container {
+    margin-top: 1.5rem;
+    margin-left: 38rem;
+    padding-left: 4px;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .html {
+    margin-left: 4px;
+  }
+
+  section.page-3 {
+    display: flex;
+    width: 90%;
+    height: 34rem;
+    margin: 0rem 9rem;
+  }
+
+  .text
+
+  .deskh5-3 {
+    display: block;
+  }
+
+  .deskli-3 {
+    display: block;
+  }
+
+  .deskp {
+    display: block;
+  }
+
+  #deskbtn-3 {
+    display: block;
+    display: flex;
+  }
+
+  .page-3 img {
+    display: none;
+  }
+
+  .wrapper-3 {
+    width: 1156px;
+    height: 496px;
+    background-color: #fff;
+    border: solid 1px #dfe1E6;
+    border-radius: 1rem;
+    background-image: url(/Assets/Snapshoot\ Portfolio\ 3.png  );
+    background-position-y: 1.6vw;
+    background-position-x: 40.6vw;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+
+  #text-3 {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    box-sizing: border-box;
+    width: 45%;
+  }
+
+  #text-3 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #text-3 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #mobh5-3 {
+    display: none;
+  }
+
+  .deskh5-3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .deskli-3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #mobli-3 {
+    display: none;
+  }
+
+  #mobp-3 {
+    display: none;
+  }
+
+  #btn-3 {
+    display: none;
+  }
+
+  #deskbtn-3 {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  #container-3 {
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    padding-left: 4px;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  #html-3 {
+    margin-left: 4px;
+  }
+
+  .ruby {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 16px;
+    height: 24px;
+    background: #ebebff;
+    border-radius: 8px;
+    white-space: nowrap;
+  }
+
+  .page-4 {
+    display: flex;
+    width: 90%;
+    height: 34rem;
+    margin: 0rem auto;
+    padding-left: 4rem;
+  }
+
+  #desktext4 {
+    display: block;
+  }
+
+  #deskh5-4 {
+    display: block;
+  }
+
+  #deskli-4 {
+    display: block;
+  }
+
+  #deskp-4 {
+    display: block;
+  }
+
+  #deskbtn-4 {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 16px;
+    margin-left: 38.5rem;
+    width: 92px;
+    height: 24px;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
+  #html-4 {
+    margin-right: 25px;
+  }
+
+  .img-4 {
+    display: none;
+  }
+
+  .wrapper-4 {
+    width: 72.5rem;
+    height: 496px;
+    background-color: #fff;
+    border: solid 2px #a7aeff;
+    border-radius: 1rem;
+    background-image: url(/Assets/Snapshoot\ Portfolio\ 4.png), url(Assets/hand-cursor\ 1.png);
+    background-position-y: 1.6vw, 20rem;
+    background-position-x: 1.6vw, 66vw;
+    background-size: auto, 4rem;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+
+  .mobtext4 {
+    display: none;
+  }
+
+  .mobh5-4 {
+    display: none;
+  }
+
+  .mobli-4 {
+    display: none;
+  }
+
+  .mobp-4 {
+    display: none;
+  }
+
+  #mobbtn-4 {
+    display: none;
+  }
+
+  #container-4 a:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  #container-4 a {
+    background-color: #4053fc;
+    color: #fff;
+  }
+
+  #container-4 a:disabled {
+    background-color: #c1c7d0;
+    color: #c1c7d0;
+  }
+
+  .page-5 img {
+    display: none;
+  }
+
+  .page-5 {
+    display: flex;
+    width: 90%;
+    height: 34rem;
+    padding-left: 4rem;
+  }
+
+  .wrapper-5 {
+    width: 1156px;
+    height: 496px;
+    background-color: #fff;
+    border: solid 1px #dfe1E6;
+    border-radius: 1rem;
+    background-image: url(/Assets/Snapshoot\ Portfolio\ 5.jpg);
+    background-position-y: 1.6vw;
+    background-position-x: 40.6vw;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+
+  #deskh1-5 {
+    display: block;
+  }
+
+  #deskh5-5 {
+    display: block;
+  }
+
+  .deskli-5 {
+    display: block;
+  }
+
+  .deskp-5 {
+    display: block;
+  }
+
+  #deskbtn-5 {
+    display: block;
+    display: flex;
+  }
+
+  .mobh1-5 {
+    display: none;
+  }
+
+  .mobh5-5 {
+    display: none;
+  }
+
+  #mobtn-5 {
+    display: none;
+  }
+
+  .mobli-5 {
+    display: none;
+  }
+
+  #text-5 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    box-sizing: border-box;
+    width: 45%;
+  }
+
+  .text li {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    font-weight: 500;
+  }
+
+  .text h5 {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    font-weight: 500;
+  }
+
+  #text-5 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #text-5 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .deskp-5 {
+    padding-top: 1rem;
+  }
+
+  #mobh5 {
+    display: none;
+  }
+
+  .deskh5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .deskli {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #mobli {
+    display: none;
+  }
+
+  #mobp {
+    display: none;
+  }
+
+  #deskbtn-5 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  #container-5 {
+    margin-left: 2rem;
+    padding-left: 4px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 0;
+    margin-top: 2.5rem;
+  }
+
+  #html-5 {
+    margin-left: 4px;
+  }
+
+  .mobp-5 {
+    display: none;
+  }
+
+  .about p{
+    white-space: wrap;
+    padding-top: 1rem;
+  }
+
+  .socials-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .container-2 a {
+    padding: 2.5%;
+  }
+
+  .aboutmyself  {
+    height: fit-content;
+  }
+
+
+  .about {
+    padding: 0;
+    margin: 10%;
+    gap: 5%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 90%;
+  }
+
+  .works {
+    width: 100%;
+  }
+
+  .works i {
+    display: block;
+  }
+
+  .lang  {
+    display: flex;
+    flex-direction: row;
+    width: 25rem;
+  }
+
+  .lang img {
+    padding-top: 0.3rem;
+  }
+
+  .lang p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .lang li {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formsection {
+    padding-top: 5rem;
+  }
+
+  .outer {
+    background-image: url(Assets/contact\ form\ background\ shapes.png);
+    display: flex;
+    background-size: 90%;
+    justify-content: center;
+    background-position-y: center;
+    background-position-x: center;
+    align-items: center;
+  }
+
+  .formsection img {
+    display: none;
+  }
+
+  .heading-2 {
+    margin-top: 5%;
+    font-weight: 700;
+  }
+
+  .contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-form-description {
+    margin-bottom: 1%;
+    font-weight: 400;
+  }
+
+  #form {
+    width: 100%;
+  }
+
+  #name {
+    border-radius: 0;
+    width: 30%;
+  }
+
+  #mail {
+    border-radius: 0;
+    width: 30%;
+  }
+
+  #msg {
+    border-radius: 0;
+    width: 30%;
+  }
+
+  .fullname {
+    width: 100%;
+  }
+
+  .btn-0 {
+    margin-bottom: 10%;
+  }
 }
