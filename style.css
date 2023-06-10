@@ -714,10 +714,11 @@ section.page-5 {
 
 @media (min-width: 768px) {
   .logo {
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 20px;
     margin-left: 8rem;
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
   }
 
   .fa-solid {
@@ -748,7 +749,13 @@ section.page-5 {
     background-color: #fff;
   }
 
-  .buttons>ul {
+  .lang li {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttons > ul {
     display: flex;
     display: block;
     list-style: none;
@@ -758,7 +765,13 @@ section.page-5 {
     line-height: 20px;
   }
 
-  .buttons>ul>li {
+  .text li {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    font-weight: 500;
+  }
+
+  .buttons > ul > li {
     display: inline-block;
     gap: 8px;
     padding: 0 20px;
@@ -772,20 +785,9 @@ section.page-5 {
     color: #344563;
   }
 
-  .logo {
-    color: #6070ff;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-  }
-
   .logo a {
     text-decoration: none;
     color: #6070ff;
-  }
-
-  .fa-solid {
-    display: none;
   }
 
   .aboutme {
@@ -817,7 +819,7 @@ section.page-5 {
 
   .connect-btn {
     font-size: 16px;
-    line-height: 24px
+    line-height: 24px;
   }
 
   .socials {
@@ -839,7 +841,7 @@ section.page-5 {
     width: 1156px;
     height: 496px;
     background-color: #fff;
-    border: solid 1px #dfe1E6;
+    border: solid 1px #dfe1e6;
     border-radius: 1rem;
     background-image: url(/Assets/Snapshoot\ Portfolio\ 1.png);
     background-position-y: 1.6vw;
@@ -855,7 +857,17 @@ section.page-5 {
     width: 45%;
   }
 
-  #textp-2  p {
+  .about p {
+    white-space: wrap;
+    padding-top: 1rem;
+  }
+
+  .lang p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #textp-2 p {
     padding-top: 1rem;
   }
 
@@ -888,17 +900,21 @@ section.page-5 {
     display: flex;
     width: 90%;
     height: 34rem;
-    margin: 0rem 9rem;
+    margin: 0 9rem;
   }
 
-  .text
-
-  .deskh5-3 {
+  .text .deskh5-3 {
     display: block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .deskli-3 {
     display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .deskp {
@@ -908,6 +924,11 @@ section.page-5 {
   #deskbtn-3 {
     display: block;
     display: flex;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
   }
 
   .page-3 img {
@@ -918,9 +939,9 @@ section.page-5 {
     width: 1156px;
     height: 496px;
     background-color: #fff;
-    border: solid 1px #dfe1E6;
+    border: solid 1px #dfe1e6;
     border-radius: 1rem;
-    background-image: url(/Assets/Snapshoot\ Portfolio\ 3.png  );
+    background-image: url(/Assets/Snapshoot\ Portfolio\ 3.png);
     background-position-y: 1.6vw;
     background-position-x: 40.6vw;
     background-repeat: no-repeat;
@@ -950,18 +971,6 @@ section.page-5 {
     display: none;
   }
 
-  .deskh5-3 {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  .deskli-3 {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-  }
-
   #mobli-3 {
     display: none;
   }
@@ -972,14 +981,6 @@ section.page-5 {
 
   #btn-3 {
     display: none;
-  }
-
-  #deskbtn-3 {
-    margin-top: 1rem;
-    margin-left: 3rem;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
   }
 
   #container-3 {
@@ -1009,7 +1010,7 @@ section.page-5 {
     display: flex;
     width: 90%;
     height: 34rem;
-    margin: 0rem auto;
+    margin: 0 auto;
     padding-left: 4rem;
   }
 
@@ -1084,13 +1085,17 @@ section.page-5 {
     display: none;
   }
 
-  #container-4 a:hover {
-    background-color: #6070ff;
-    color: #fff;
+  .container-2 a {
+    padding: 2.5%;
   }
 
   #container-4 a {
     background-color: #4053fc;
+    color: #fff;
+  }
+
+  #container-4 a:hover {
+    background-color: #6070ff;
     color: #fff;
   }
 
@@ -1114,7 +1119,7 @@ section.page-5 {
     width: 1156px;
     height: 496px;
     background-color: #fff;
-    border: solid 1px #dfe1E6;
+    border: solid 1px #dfe1e6;
     border-radius: 1rem;
     background-image: url(/Assets/Snapshoot\ Portfolio\ 5.jpg);
     background-position-y: 1.6vw;
@@ -1137,11 +1142,17 @@ section.page-5 {
 
   .deskp-5 {
     display: block;
+    padding-top: 1rem;
   }
 
   #deskbtn-5 {
     display: block;
     display: flex;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
   }
 
   .mobh1-5 {
@@ -1167,12 +1178,6 @@ section.page-5 {
     width: 45%;
   }
 
-  .text li {
-    font-size: 1.2rem;
-    padding-top: 0.5rem;
-    font-weight: 500;
-  }
-
   .text h5 {
     font-size: 1.2rem;
     padding-top: 0.5rem;
@@ -1189,10 +1194,6 @@ section.page-5 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-  }
-
-  .deskp-5 {
-    padding-top: 1rem;
   }
 
   #mobh5 {
@@ -1219,14 +1220,6 @@ section.page-5 {
     display: none;
   }
 
-  #deskbtn-5 {
-    margin-top: 1rem;
-    margin-left: 2rem;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-  }
-
   #container-5 {
     margin-left: 2rem;
     padding-left: 4px;
@@ -1244,24 +1237,14 @@ section.page-5 {
     display: none;
   }
 
-  .about p{
-    white-space: wrap;
-    padding-top: 1rem;
-  }
-
   .socials-2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
-  .container-2 a {
-    padding: 2.5%;
-  }
-
-  .aboutmyself  {
+  .aboutmyself {
     height: fit-content;
   }
-
 
   .about {
     padding: 0;
@@ -1280,7 +1263,7 @@ section.page-5 {
     display: block;
   }
 
-  .lang  {
+  .lang {
     display: flex;
     flex-direction: row;
     width: 25rem;
@@ -1288,17 +1271,6 @@ section.page-5 {
 
   .lang img {
     padding-top: 0.3rem;
-  }
-
-  .lang p {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .lang li {
-    align-items: start;
-    display: flex;
-    flex-direction: column;
   }
 
   .formsection {
