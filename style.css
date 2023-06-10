@@ -21,7 +21,6 @@ body {
   width: 100%;
   z-index: 1;
   background-color: #fff;
-  position: none;
 }
 
 .buttons ul {
@@ -739,13 +738,13 @@ section.page-5 {
 
   .hero {
     width: 100%;
-    height: 99.4vh;
+    height: 98vh;
     background-image: none;
     background-image: url(Assets/Header\ bg.jpg);
-    background-size: 97vw;
+    background-size: 95%;
     background-repeat: no-repeat;
-    background-position-y: 6vw;
-    background-position-x: 2vw;
+    background-position-y: 50%;
+    background-position-x: 20%;
     border-bottom-left-radius: 10rem;
   }
 
@@ -754,7 +753,7 @@ section.page-5 {
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    padding: 2vw;
+    padding: 2%;
     top: 0;
     width: 100%;
     z-index: 1;
@@ -802,6 +801,12 @@ section.page-5 {
     color: #6070ff;
   }
 
+  .card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .aboutme {
     margin-left: 18rem;
     margin-bottom: 15rem;
@@ -812,7 +817,7 @@ section.page-5 {
   .aboutme h1 {
     margin-top: 14rem;
     font-style: normal;
-    padding-top: 3vw;
+    padding-top: 3%;
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
@@ -843,34 +848,24 @@ section.page-5 {
   }
 
   section.page-2 {
-    display: flex;
-    width: 90%;
     height: 34rem;
-    margin: 5rem 8.7rem;
   }
 
   .wrapper {
-    width: 1156px;
-    height: 496px;
-    background-color: #fff;
+    width: 100%;
     border: solid 1px #dfe1e6;
-    border-radius: 1rem;
     background-image: url(/Assets/Snapshoot\ Portfolio\ 1.png);
-    background-position-y: 1.6vw;
-    background-position-x: 1.6vw;
+    background-position-y: 3rem;
+    background-position-x: 2.5rem;
     background-repeat: no-repeat;
-    padding: 1rem;
   }
 
   .text {
-    margin-top: 3rem;
-    margin-left: 38rem;
-    box-sizing: border-box;
-    width: 45%;
+    margin-top: 4rem;
+    margin-left: 40rem;
   }
 
   .about p {
-    white-space: wrap;
     padding-top: 1rem;
   }
 
@@ -881,6 +876,9 @@ section.page-5 {
 
   #textp-2 p {
     padding-top: 1rem;
+    width: 73%;
+    padding-left: 0;
+    margin: 0;
   }
 
   .text h1 {
@@ -891,14 +889,14 @@ section.page-5 {
 
   .btn {
     margin-top: 1rem;
-    margin-left: 38rem;
+    margin-left: 40rem;
     font-weight: 500;
     font-size: 12px;
   }
 
   .container {
     margin-top: 1.5rem;
-    margin-left: 38rem;
+    margin-left: 40rem;
     padding-left: 4px;
     font-weight: 500;
     font-size: 17px;
@@ -909,10 +907,7 @@ section.page-5 {
   }
 
   section.page-3 {
-    display: flex;
-    width: 90%;
     height: 34rem;
-    margin: 0 9rem;
   }
 
   .text .deskh5-3 {
@@ -948,22 +943,17 @@ section.page-5 {
   }
 
   .wrapper-3 {
-    width: 1156px;
-    height: 496px;
-    background-color: #fff;
     border: solid 1px #dfe1e6;
     border-radius: 1rem;
     background-image: url(/Assets/Snapshoot\ Portfolio\ 3.png);
-    background-position-y: 1.6vw;
-    background-position-x: 40.6vw;
+    background-position-y: 3rem;
+    background-position-x: 54rem;
     background-repeat: no-repeat;
-    padding: 1rem;
   }
 
   #text-3 {
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-left: 3rem;
-    box-sizing: border-box;
     width: 45%;
   }
 
@@ -1003,7 +993,7 @@ section.page-5 {
     font-size: 17px;
   }
 
-  #html-3 {
+  .html-3 {
     margin-left: 4px;
   }
 
@@ -1019,11 +1009,7 @@ section.page-5 {
   }
 
   .page-4 {
-    display: flex;
-    width: 90%;
     height: 34rem;
-    margin: 0 auto;
-    padding-left: 4rem;
   }
 
   #desktext4 {
@@ -1048,15 +1034,7 @@ section.page-5 {
     flex-direction: row;
     align-items: center;
     padding: 6px 16px;
-    margin-left: 38.5rem;
-    width: 92px;
-    height: 24px;
-    background: #ebebff;
-    border-radius: 8px;
-  }
-
-  #html-4 {
-    margin-right: 25px;
+    margin-left: 39rem;
   }
 
   .img-4 {
@@ -1064,17 +1042,11 @@ section.page-5 {
   }
 
   .wrapper-4 {
-    width: 72.5rem;
-    height: 496px;
-    background-color: #fff;
     border: solid 2px #a7aeff;
-    border-radius: 1rem;
     background-image: url(/Assets/Snapshoot\ Portfolio\ 4.png), url(Assets/hand-cursor\ 1.png);
-    background-position-y: 1.6vw, 20rem;
-    background-position-x: 1.6vw, 66vw;
-    background-size: auto, 4rem;
+    background-position-y: 3rem;
+    background-position-x: 3rem;
     background-repeat: no-repeat;
-    padding: 1rem;
   }
 
   .mobtext4 {
@@ -1098,7 +1070,7 @@ section.page-5 {
   }
 
   .container-2 a {
-    padding: 2.5%;
+    padding: 2%;
   }
 
   #container-4 a {
@@ -1121,25 +1093,17 @@ section.page-5 {
   }
 
   .page-5 {
-    display: flex;
-    width: 90%;
-    height: 34rem;
-    padding-left: 4rem;
+    width: 100%;
   }
 
   .wrapper-5 {
-    width: 1156px;
-    height: 496px;
-    background-color: #fff;
     border: solid 1px #dfe1e6;
-    border-radius: 1rem;
     background-image: url(/Assets/Snapshoot\ Portfolio\ 5.jpg);
-    background-position-y: 1.6vw;
-    background-position-x: 40.6vw;
+    background-position-y: 4.3rem;
+    background-position-x: 52.9rem;
     background-repeat: no-repeat;
-    padding: 1rem;
   }
-
+  
   #deskh1-5 {
     display: block;
   }
@@ -1161,7 +1125,8 @@ section.page-5 {
     display: block;
     display: flex;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
+    width: fit-content;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
@@ -1184,9 +1149,8 @@ section.page-5 {
   }
 
   #text-5 {
-    margin-top: 2rem;
-    margin-left: 2rem;
-    box-sizing: border-box;
+    margin-top: 4rem;
+    margin-left: 3rem;
     width: 45%;
   }
 
@@ -1233,7 +1197,7 @@ section.page-5 {
   }
 
   #container-5 {
-    margin-left: 2rem;
+    margin-left: 3rem;
     padding-left: 4px;
     font-weight: 500;
     font-size: 17px;
@@ -1290,13 +1254,14 @@ section.page-5 {
   }
 
   .outer {
-    background-image: url(Assets/contact\ form\ background\ shapes.png);
+    background-image: url(Assets/new.png);
     display: flex;
     background-size: 90%;
     justify-content: center;
     background-position-y: center;
     background-position-x: center;
     align-items: center;
+    width: auto;
   }
 
   .formsection img {
