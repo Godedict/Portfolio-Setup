@@ -180,7 +180,7 @@ section.page-2 {
   height: 8px;
 }
 
-.text h1 {
+.text h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -362,7 +362,7 @@ section.page-5 {
   margin: 0 auto;
 }
 
-#deskh1-5 {
+#deskh3-5 {
   display: none;
 }
 
@@ -881,7 +881,7 @@ section.page-5 {
     margin: 0;
   }
 
-  .text h1 {
+  .text h3 {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -957,7 +957,7 @@ section.page-5 {
     width: 45%;
   }
 
-  #text-3 h1 {
+  #text-3 h3 {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -1104,7 +1104,7 @@ section.page-5 {
     background-repeat: no-repeat;
   }
 
-  #deskh1-5 {
+  #deskh3-5 {
     display: block;
   }
 
@@ -1132,7 +1132,7 @@ section.page-5 {
     line-height: 16px;
   }
 
-  .mobh1-5 {
+  .mobh3-5 {
     display: none;
   }
 
@@ -1160,7 +1160,7 @@ section.page-5 {
     font-weight: 500;
   }
 
-  #text-5 h1 {
+  #text-5 h3 {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
