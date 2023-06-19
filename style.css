@@ -91,7 +91,7 @@ body {
   right: 0;
   flex-direction: column;
   background-color: rgba(50, 70, 255, 0.8);
-  backdrop-filter: blur(9px);
+  backdrop-filter: blur(4px);
   align-items: flex-start;
   justify-content: flex-start;
 }
