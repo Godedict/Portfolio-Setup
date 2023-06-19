@@ -834,7 +834,7 @@ section.page-5 {
     flex-direction: column;
   }
 
-  .buttons>ul {
+  .buttons > ul {
     display: flex;
     display: block;
     list-style: none;
@@ -850,7 +850,7 @@ section.page-5 {
     font-weight: 500;
   }
 
-  .buttons>ul>li {
+  .buttons > ul > li {
     display: inline-block;
     gap: 8px;
     padding: 0 20px;
