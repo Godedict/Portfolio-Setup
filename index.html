@@ -14,17 +14,24 @@
 <body>
   <header>
     <nav class="buttons">
-      <h2 class="logo"><a href="#">My Logo</a></h2>
+      <h2 class="logo"><a href="#">Lucas</a></h2>
       <a href="#" class="menu-icon"><i class="fa-solid fa-bars"></i></a>
+      <a href="#" class="close-icon"><i class="fa-solid fa-xmark"></i></a>
       <ul>
-        <li>
-          <a href="#"><p>Portfolio</p></a>
+        <li class="nav-item">
+          <a href="#">
+            <p>Portfolio</p>
+          </a>
         </li>
-        <li>
-          <a href="#"><p>About</p></a>
+        <li class="nav-item">
+          <a href="#">
+            <p>About</p>
+          </a>
         </li>
-        <li>
-          <a href="#"><p>Contact</p></a>
+        <li class="nav-item">
+          <a href="#">
+            <p>Contact</p>
+          </a>
         </li>
       </ul>
     </nav>
@@ -58,7 +65,7 @@
         <div class="img">
           <img src="./Assets/Page 2 image.png" alt="page 2 image">
         </div>
-        <div class="text"  id="textp-2">
+        <div class="text" id="textp-2">
           <h3>Tonic</h3>
           <ul>
             <h5>CANOPY</h5>
@@ -250,17 +257,21 @@
         you need built or a project that needs coding. I'd love to help with it!</p>
       <form id=form action="https://formspree.io/f/xknalvkr" method="post">
         <div class="contact-box">
-            <label for="name"></label>
-            <input type="text" id="name" name="user_name" maxlength="30" placeholder="enter full name" required>      
-            <input type="email" id="mail" name="user_email" placeholder="enter email" required>
-            <label for="msg"></label>
-            <textarea id="msg" name="user_message" maxlength="500" placeholder="Write your message here..."
-              required></textarea>
+          <label for="name"></label>
+          <input type="text" id="name" name="user_name" maxlength="30" placeholder="enter full name" required>
+          <input type="email" id="mail" name="user_email" placeholder="enter email" required>
+          <label for="msg"></label>
+          <textarea id="msg" name="user_message" maxlength="500" placeholder="Write your message here..."
+            required></textarea>
           <button class="btn-0" type="submit">Get in touch</button>
         </div>
       </form>
     </div>
   </section>
+
+
+  <!--JavaScript files-->
+  <script src="./components/menu.js"></script>
 </body>
 
 </html>
