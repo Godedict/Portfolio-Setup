@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Portfolio website</title>
+  <title>Portfolio website | Lucas</title>
   <script src="https://kit.fontawesome.com/fe8431d094.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="style.css" />
@@ -14,17 +14,24 @@
 <body>
   <header>
     <nav class="buttons">
-      <h2 class="logo"><a href="#">My Logo</a></h2>
+      <h2 class="logo"><a href="#">Lucas</a></h2>
       <a href="#" class="menu-icon"><i class="fa-solid fa-bars"></i></a>
+      <a href="#" class="close-icon"><i class="fa-solid fa-xmark"></i></a>
       <ul>
-        <li>
-          <a href="#"><p>Portfolio</p></a>
+        <li class="nav-item">
+          <a href="#Port">
+            <p>Portfolio</p>
+          </a>
         </li>
-        <li>
-          <a href="#"><p>About</p></a>
+        <li class="nav-item">
+          <a href="#aboutContainer">
+            <p>About</p>
+          </a>
         </li>
-        <li>
-          <a href="#"><p>Contact</p></a>
+        <li class="nav-item">
+          <a href="#contact-me">
+            <p>Contact</p>
+          </a>
         </li>
       </ul>
     </nav>
@@ -52,14 +59,17 @@
     </div>
   </section>
 
+  <!--Works section STARTS-->
+  <section id="Port"></section>
+
   <section class="card">
     <section class="page-2">
       <div class="wrapper">
         <div class="img">
           <img src="./Assets/Page 2 image.png" alt="page 2 image">
         </div>
-        <div class="text"  id="textp-2">
-          <h1>Tonic</h1>
+        <div class="text" id="textp-2">
+          <h3>Tonic</h3>
           <ul>
             <h5>CANOPY</h5>
             <li>Back End Dev</li>
@@ -84,7 +94,7 @@
           <img src="./Assets/Page 3 image.jpg" alt="page 3 image">
         </div>
         <div class="text" id="text-3">
-          <h1>Multi-Post Stories</h1>
+          <h3>Multi-Post Stories</h3>
           <ul>
             <h5 id="mobh5-3">CANOPY</h5>
             <h5 class="deskh5-3">FACEBOOK</h5>
@@ -119,8 +129,8 @@
           <img src="./Assets/Page 4 image.jpg" alt="page 4 image">
         </div>
         <div class="text">
-          <h1 class="mobtext4">Tonic</h1>
-          <h1 id="desktext4">Facebook 360</h1>
+          <h3 class="mobtext4">Tonic</h3>
+          <h3 id="desktext4">Facebook 360</h3>
           <ul>
             <h5 class="mobh5-4">CANOPY</h5>
             <h5 id="deskh5-4">FACEBOOK</h5>
@@ -157,8 +167,8 @@
           <img src="./Assets/Page 5 image.jpg" alt="page 5 image">
         </div>
         <div class="text" id="text-5">
-          <h1 class="mobh1-5">Multi-Post<br>Stories</h1>
-          <h1 id="deskh1-5">Uber Navigation</h1>
+          <h3 class="mobh3-5">Multi-Post<br>Stories</h3>
+          <h3 id="deskh3-5">Uber Navigation</h3>
           <ul>
             <h5 class="mobh5-5">CANOPY</h5>
             <h5 id="deskh5-5">Uber</h5>
@@ -191,7 +201,7 @@
 
   <!--Works section ENDS-->
 
-  <section class="aboutmyself">
+  <section class="aboutmyself" id="aboutContainer">
     <div class="about">
       <div class="deskaboutmyself">
         <h1 id="myself">About Myself</h1>
@@ -250,17 +260,21 @@
         you need built or a project that needs coding. I'd love to help with it!</p>
       <form id=form action="https://formspree.io/f/xknalvkr" method="post">
         <div class="contact-box">
-            <label for="name"></label>
-            <input type="text" id="name" name="user_name" maxlength="30" placeholder="enter full name" required>      
-            <input type="email" id="mail" name="user_email" placeholder="enter email" required>
-            <label for="msg"></label>
-            <textarea id="msg" name="user_message" maxlength="500" placeholder="Write your message here..."
-              required></textarea>
+          <label for="name"></label>
+          <input type="text" id="name" name="user_name" maxlength="30" placeholder="enter full name" required>
+          <input type="email" id="mail" name="user_email" placeholder="enter email" required>
+          <label for="msg"></label>
+          <textarea id="msg" name="user_message" maxlength="500" placeholder="Write your message here..."
+            required></textarea>
           <button class="btn-0" type="submit">Get in touch</button>
         </div>
       </form>
     </div>
   </section>
+
+
+  <!--JavaScript files-->
+  <script src="./components/menu.js"></script>
 </body>
 
 </html>
