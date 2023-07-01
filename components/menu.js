@@ -129,11 +129,11 @@ const popdetail = (e, pop) => {
           <div class="button">
             <a href="${e.live}" class="btn">
               see live
-              <img src="images/expand/seelive.png"/>
+              <img src="assets/icon-point.png"/>
             </a>
             <a href="${e.source}" class="btn">
               see source
-              <img src="images/expand/seesource.png"/>
+              <img src="assets/Vectorgithub.png"/>
             </a>
           </div>
         </div>
