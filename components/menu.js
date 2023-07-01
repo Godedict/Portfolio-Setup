@@ -10,7 +10,7 @@ const details = [
     live: '',
     source: '',
     imagemobile: "./Assets/Page-2-image.png",
-    imagedesktop: "./Assets/Page-2-image.png",
+    imagedesktop: "./Assets/Snapshoot-Portfolio-1.png",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const details = [
     live: '',
     source: '',
     imagemobile: "./Assets/Page-3-image.jpg",
-    imagedesktop: "./Assets/Page-3-image.jpg",
+    imagedesktop: "./Assets/Snapshoot-Portfolio-3.png",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const details = [
     live: '',
     source: '',
     imagemobile: "./Assets/Page-4-image.jpg",
-    imagedesktop: "./Assets/Page-4-image.jpg",
+    imagedesktop: "./Assets/Snapshoot-Portfolio-4.png",
   },
 
   {
@@ -52,7 +52,7 @@ const details = [
     live: '',
     source: '',
     imagemobile: "./Assets/Page-5-image.jpg",
-    imagedesktop: "./Assets/Page-5-image.jpg",
+    imagedesktop: "./Assets/Snapshoot-Portfolio-5.png",
   },
 
 ];
