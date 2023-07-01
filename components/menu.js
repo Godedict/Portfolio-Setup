@@ -144,6 +144,7 @@ btn.forEach((btn, index) => {
   btn.addEventListener('click', () => {
     const parent = btn.parentElement;
     const pop = parent.querySelector('.pop');
+    console.log(pop)
     details.forEach((e) => {
       if (index + 1 === e.id) {
         popdetail(e, pop);
