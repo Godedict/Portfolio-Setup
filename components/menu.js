@@ -174,9 +174,9 @@ function hideError() {
   emailError.classList.remove('active');
 }
 
-// Function to validate email format (bug introduced: always returns true)
+// Function to validate email format
 function validateEmail(email) {
-  return true;
+  return email === email.toLowerCase();
 }
 
 // Add submit event listener to the form
