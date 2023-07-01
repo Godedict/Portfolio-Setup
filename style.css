@@ -720,7 +720,7 @@ body {
   background-image: url(Assets/Ellipse\ 12.svg);
 }
 
-.popup-page {
+/*.popup-page {
   background: rgba(75, 88, 105, 0.25);
   backdrop-filter: blur(2px);
   position: fixed;
@@ -741,7 +741,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-}
+}*/
 
 .hidden {
   display: none;
@@ -876,14 +876,62 @@ body {
   margin: 0.7rem;
 }
 
+body.content {
+  filter: blur(5px );
+}
+
 .pop {
-  top: 0;
-  background: #00aeff52;
+  top: 4%;
+  background: #fff;
   backdrop-filter: blur(25px);
   position: fixed;
-  height: 100vh;
-  left: 0;
+  height: 100%;
+  left: 4%;
   z-index: 1;
+  border-radius: 2rem;
+}
+
+.top h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #172b4d;
+  padding: 1rem;
+}
+
+.top ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  color: var(--neutrals-n-100, #7A869A);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.words p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  padding: 1rem;
+}
+
+.stack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  color: var(--primary-b-400, #6070ff);
+  font-size: 12px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.stack li {
+  border-radius: 8px;
+  background: var(--primary-b-50, #EBEBFF);
+  padding: 4px 13px;
 }
 
 .error {
@@ -956,7 +1004,7 @@ body {
     flex-direction: column;
   }
 
-  .buttons > ul {
+  .buttons>ul {
     display: flex;
     display: block;
     list-style: none;
@@ -971,7 +1019,7 @@ body {
     font-weight: 500;
   }
 
-  .buttons > ul > li {
+  .buttons>ul>li {
     display: inline-block;
     gap: 8px;
     padding: 0 20px;
