@@ -9,6 +9,8 @@ const details = [
     titledesktop: 'Tonic',
     live: '',
     source: '',
+    imagemobile: "./Assets/Page-2-image.png",
+    imagedesktop: "./Assets/Snapshoot-Portfolio-new.png",
   },
   {
     id: 2,
@@ -20,6 +22,8 @@ const details = [
     titledesktop: 'Multi-post stories',
     live: '',
     source: '',
+    imagemobile: "./Assets/Page-3-image.jpg",
+    imagedesktop: "./Assets/Snapshoot-Portfolio-3.png",
   },
   {
     id: 3,
@@ -32,6 +36,8 @@ const details = [
 
     live: '',
     source: '',
+    imagemobile: "./Assets/Page-4-image.jpg",
+    imagedesktop: "./Assets/Snapshoot-Portfolio-4.png",
   },
 
   {
@@ -45,6 +51,8 @@ const details = [
 
     live: '',
     source: '',
+    imagemobile: "./Assets/Page-5-image.jpg",
+    imagedesktop: "./Assets/Snapshoot-Portfolio-5.jpg",
   },
 
 ];
@@ -81,11 +89,12 @@ navItems.forEach((navItem) => {
 const popdetail = (e, pop) => {
   const play = `<div class="content">
       <div class="top">
+      <div class="cancel">X</div>
         <h2 class="desktop">${e.titledesktop}</h2>
         <h2 class="mobile">${e.titlemobile}</h2>
-        <ul>
+        <ul class="text">
           <li class="dark desktop">Uber</li>
-          <li class="dark mobile">canopy</li>
+          <h5 class="dark mobile">CANOPY</h5>
           <li class="desktop">full Stack Dev</li>
           <li class="mobile">Back End Dev</li>
           <li class="desktop">2018</li>
@@ -93,8 +102,8 @@ const popdetail = (e, pop) => {
         </ul>
       </div>
       <div class="image">
-        <img src="${e.image}" class="desktop"/>
-        <img src="${e.image}" class="desktop"/>
+        <img src="${e.imagedesktop}" class="desktop"/>
+        <img src="${e.imagemobile}" class="mobile"/>
       </div>
       <div class="bottom">
         <div class="words">
@@ -120,18 +129,18 @@ const popdetail = (e, pop) => {
           <div class="button">
             <a href="${e.live}" class="btn">
               see live
-              <img src="images/expand/seelive.png" alt="visit the website"/>
+              <img src="assets/icon-point.png"/>
             </a>
             <a href="${e.source}" class="btn">
               see source
-              <img src="images/expand/seesource.png" alt=" see the sourcecode"/>
+              <img src="assets/Vectorgithub.png"/>
             </a>
           </div>
         </div>
         
         
 
-       <div class="cancel">X</div>
+       
         
       </div>`;
 
