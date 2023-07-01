@@ -144,7 +144,7 @@ btn.forEach((btn, index) => {
   btn.addEventListener('click', () => {
     const parent = btn.parentElement;
     const pop = parent.querySelector('.pop');
-    console.log(pop)
+    console.log(pop);
     details.forEach((e) => {
       if (index + 1 === e.id) {
         popdetail(e, pop);
@@ -190,3 +190,35 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+const contactForm = document.querySelector('#contact-me-form');
+
+// Retrieve form data from local storage
+const formData = JSON.parse(localStorage.getItem('formData')) || {};
+
+// Function to save form data to local storage
+const saveFormData = () => {
+  localStorage.setItem('formData', JSON.stringify(formData));
+};
+
+// Function to handle input change event
+const handleInputChange = (e) => {
+  const { name, value } = e.target;
+  formData[name] = value;
+  saveFormData();
+};
+
+// Function to pre-fill form with saved data
+const prefillForm = () => {
+  Object.keys(formData).forEach((field) => {
+    if (contactForm.elements[field]) {
+      contactForm.elements[field].value = formData[field];
+    }
+  });
+};
+
+// Add event listener for input change
+contactForm.addEventListener('change', handleInputChange);
+
+// Pre-fill form with saved data on page load
+prefillForm();
