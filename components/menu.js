@@ -10,7 +10,7 @@ const details = [
     live: '',
     source: '',
     imagemobile: "./Assets/Page-2-image.png",
-    imagedesktop: "./Assets/Snapshoot-Portfolio-1.png",
+    imagedesktop: "./Assets/Snapshoot-Portfolio-new.png",
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ const details = [
     live: '',
     source: '',
     imagemobile: "./Assets/Page-5-image.jpg",
-    imagedesktop: "./Assets/Snapshoot-Portfolio-5.png",
+    imagedesktop: "./Assets/Snapshoot-Portfolio-5.jpg",
   },
 
 ];

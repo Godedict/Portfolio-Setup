@@ -1357,4 +1357,27 @@ body.content {
   .btn-0 {
     margin-bottom: 10%;
   }
+
+  .pop {
+    margin-right: 3rem;
+    height: 95%;
+  }
+
+  .top h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 1rem;
+  }
+
+  .image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .image img {
+    width: fit-content;
+  }
 }
