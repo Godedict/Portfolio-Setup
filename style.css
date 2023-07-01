@@ -12,6 +12,10 @@ body {
   background-color: #f7f7f9;
 }
 
+.desktop {
+  display: none;
+}
+
 .buttons {
   display: flex;
   justify-content: space-between;
@@ -50,6 +54,7 @@ body {
 .text ul {
   display: flex;
   justify-content: baseline;
+  align-items: center;
   margin-top: 1rem;
   list-style: none;
 }
@@ -328,7 +333,7 @@ body {
 .text h5 {
   margin-right: 0.5rem;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 1.2rem;
   line-height: 16px;
   color: #344563;
 }
@@ -642,7 +647,7 @@ body {
   color: #172b4d;
 }
 
-#mail {
+#email {
   width: 327px;
   height: 48px;
   padding: 0.5rem 1rem;
@@ -656,14 +661,14 @@ body {
   margin-bottom: 18px;
 }
 
-#mail::placeholder {
+#email::placeholder {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
 }
 
-#msg {
+#message {
   width: 327px;
   height: 170px;
   padding: 0.5rem 1rem;
@@ -677,7 +682,7 @@ body {
   margin-bottom: 18px;
 }
 
-#msg::placeholder {
+#message::placeholder {
   color: #b3bac5;
   font-weight: 400;
   font-size: 15px;
@@ -871,7 +876,44 @@ body {
   margin: 0.7rem;
 }
 
+.pop {
+  top: 0;
+  background: #00aeff52;
+  backdrop-filter: blur(25px);
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  z-index: 1;
+}
+
+.error {
+  display: none;
+  transform: scale(0);
+  transition: 0.5s ease-in-out;
+  width: fit-content;
+  color: white;
+  font-size: 13px;
+  background-color: rgba(214, 23, 23, 0.877);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 0.2em;
+}
+
+.error.active {
+  display: block;
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+
 @media (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
   .logo {
     margin-left: 8rem;
     color: #6070ff;
@@ -914,7 +956,7 @@ body {
     flex-direction: column;
   }
 
-  .buttons>ul {
+  .buttons > ul {
     display: flex;
     display: block;
     list-style: none;
@@ -926,11 +968,10 @@ body {
 
   .text li {
     font-size: 1.2rem;
-    padding-top: 0.5rem;
     font-weight: 500;
   }
 
-  .buttons>ul>li {
+  .buttons > ul > li {
     display: inline-block;
     gap: 8px;
     padding: 0 20px;
@@ -985,31 +1026,34 @@ body {
     margin-bottom: 4rem;
   }
 
-  .card {
-    display: grid;
-    grid-template-columns: ;
-  }
-
-  #page-2 img {
-    display: none;
-  }
-
   #page-2 {
-    height: 34rem;
+    height: auto;
+  }
+
+  .img img {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
   }
 
   .wrapper {
     width: 100%;
     border: solid 1px #dfe1e6;
-    background-image: url(/Assets/Snapshoot\ Portfolio\ 1.png);
-    background-position-y: 3rem;
-    background-position-x: 2.5rem;
-    background-repeat: no-repeat;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+  }
+
+  .word {
+    width: 50%;
   }
 
   .text {
-    margin-top: 4rem;
-    margin-left: 40rem;
+    margin-top: 2rem;
+  }
+
+  .inverse {
+    flex-direction: row-reverse;
   }
 
   .about p {
@@ -1023,9 +1067,6 @@ body {
 
   #textp-2 p {
     padding-top: 1rem;
-    width: 73%;
-    padding-left: 0;
-    margin: 0;
   }
 
   .text h3 {
@@ -1036,14 +1077,12 @@ body {
 
   .btn {
     margin-top: 1rem;
-    margin-left: 40rem;
     font-weight: 500;
     font-size: 12px;
   }
 
   .container {
     margin-top: 1.5rem;
-    margin-left: 40rem;
     padding-left: 4px;
     font-weight: 500;
     font-size: 17px;
@@ -1217,7 +1256,7 @@ body {
     font-weight: 400;
   }
 
-  #form {
+  .form {
     width: 100%;
   }
 
@@ -1226,12 +1265,12 @@ body {
     width: 30%;
   }
 
-  #mail {
+  #email {
     border-radius: 0;
     width: 30%;
   }
 
-  #msg {
+  #message {
     border-radius: 0;
     width: 30%;
   }
