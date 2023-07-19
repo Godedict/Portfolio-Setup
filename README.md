@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://Godedict.github.io)
+- [Live Demo Link](https://godedict.github.io/Portfolio-Setup/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
